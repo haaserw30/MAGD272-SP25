@@ -3161,7 +3161,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &732395315
 Canvas:
   m_ObjectHideFlags: 0
@@ -4482,14 +4482,14 @@ Transform:
   m_GameObject: {fileID: 1150277336}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.35, y: 8.809999, z: 10}
+  m_LocalPosition: {x: 14.83, y: 6.0799994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1364474276}
   - {fileID: 1857038767}
   - {fileID: 967250948}
-  m_Father: {fileID: 1400513835}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1150277343
 MonoBehaviour:
@@ -4939,7 +4939,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1364474279
 Canvas:
   m_ObjectHideFlags: 0
@@ -5252,8 +5252,7 @@ Transform:
   m_LocalPosition: {x: -9.52, y: -2.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1150277342}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1400513836
@@ -5268,7 +5267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee75fdf325f7b3143b0fc675b9d6555a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 924583372}
+  target: {fileID: 1150277342}
   smoothingTimePercentage: 0.08
   constrainX: 0
   constraintY: 0
@@ -7074,9 +7073,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1729579214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f2edd29f6537dd4e8b3e65ff0363185, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ff421bccc60c46ee8d8434cfa104732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoSetPlayer: 0
+  target: {fileID: 719111445}
+  agroDistance: 10
+  stoppingDistance: 0.1
+  minimumDistance: 0.05
 --- !u!50 &1729579217
 Rigidbody2D:
   serializedVersion: 5
@@ -8488,6 +8492,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1400513835}
+  - {fileID: 1150277342}
   - {fileID: 719111449}
   - {fileID: 1709484069}
   - {fileID: 2027980611}
