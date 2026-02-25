@@ -973,7 +973,7 @@ TextureImporter:
         serializedVersion: 2
         x: 182
         y: 58
-        width: 32
+        width: 21
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -995,7 +995,7 @@ TextureImporter:
         serializedVersion: 2
         x: 234
         y: 58
-        width: 36
+        width: 25
         height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1017,7 +1017,7 @@ TextureImporter:
         serializedVersion: 2
         x: 289
         y: 58
-        width: 36
+        width: 23
         height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1039,7 +1039,7 @@ TextureImporter:
         serializedVersion: 2
         x: 344
         y: 56
-        width: 36
+        width: 24
         height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1061,8 +1061,8 @@ TextureImporter:
         serializedVersion: 2
         x: 394
         y: 56
-        width: 44
-        height: 16
+        width: 31
+        height: 12
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1083,7 +1083,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2
         y: 0
-        width: 44
+        width: 32
         height: 12
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1161,6 +1161,138 @@ TextureImporter:
       bones: []
       spriteID: 53d654e3b3c3f1d4b944c688e9ed1dcf
       internalID: -1170636197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_40
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 79
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aba496efa32a147af70a451aec14fa
+      internalID: -2048098228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 82
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8677b806a541ff84bb73527d5475a017
+      internalID: -1432737032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 76
+        width: 22
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c24d80b4860d04e9725cca77a79f07
+      internalID: -428206707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_46
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 70
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d706a908e6314f84cc19b57af1451
+      internalID: -1626945751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_47
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 66
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5678c4c68be7ac4d927ad957fa0a852
+      internalID: -1269080866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_blue_50
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ad071121a692646ac33ffb7db79773
+      internalID: 896939160
       vertices: []
       indices: 
       edges: []
