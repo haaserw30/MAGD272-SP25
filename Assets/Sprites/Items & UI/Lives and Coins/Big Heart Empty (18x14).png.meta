@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: b0600e2e5d09b9b468da7bff70373018
+guid: 1cdae92c29dc7064892c0017453c9283
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7008412969330441016
-    second: Attack_0
+      213: 8359515452663919735
+    second: Big Heart Empty (18x14)_0
   - first:
-      213: -7763475090823894447
-    second: Attack_1
+      213: 4436660828127510803
+    second: Big Heart Empty (18x14)_1
   - first:
-      213: 302641331129538988
-    second: Attack_2
+      213: -7670799139532332002
+    second: Big Heart Empty (18x14)_2
   - first:
-      213: -6329420634031446844
-    second: Attack_3
+      213: -5921659163267886914
+    second: Big Heart Empty (18x14)_3
   - first:
-      213: -910092549403018386
-    second: Attack_4
+      213: -5969066790482597598
+    second: Big Heart Empty (18x14)_4
   - first:
-      213: 221524225039350300
-    second: Attack_5
+      213: -7632661972720709556
+    second: Big Heart Empty (18x14)_5
   - first:
-      213: 1290532464073988732
-    second: Attack_6
+      213: -891690767269729278
+    second: Big Heart Empty (18x14)_6
   - first:
-      213: 4780903288873104255
-    second: Attack_7
+      213: 6452609857615144970
+    second: Big Heart Empty (18x14)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_0
+      name: Big Heart Empty (18x14)_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 48
-        width: 35
-        height: 38
+        x: 4
+        y: 0
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c481db598d1dbe90800000000000000
-      internalID: -7008412969330441016
+      spriteID: 774fb6a7307f20470800000000000000
+      internalID: 8359515452663919735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: Big Heart Empty (18x14)_1
       rect:
         serializedVersion: 2
-        x: 209
-        y: 48
-        width: 30
-        height: 38
+        x: 22
+        y: 0
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15a29dc9988924490800000000000000
-      internalID: -7763475090823894447
+      spriteID: 3114e69448f229d30800000000000000
+      internalID: 4436660828127510803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: Big Heart Empty (18x14)_2
       rect:
         serializedVersion: 2
-        x: 359
-        y: 48
-        width: 31
-        height: 36
+        x: 40
+        y: 0
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca9d35cefa2333400800000000000000
-      internalID: 302641331129538988
+      spriteID: e14adc003d8db8590800000000000000
+      internalID: -7670799139532332002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_3
+      name: Big Heart Empty (18x14)_3
       rect:
         serializedVersion: 2
-        x: 509
-        y: 48
-        width: 31
-        height: 36
+        x: 58
+        y: 0
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c42782d7716928a0800000000000000
-      internalID: -6329420634031446844
+      spriteID: eb01b748d5a02dda0800000000000000
+      internalID: -5921659163267886914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4
+      name: Big Heart Empty (18x14)_4
       rect:
         serializedVersion: 2
-        x: 659
-        y: 48
-        width: 31
-        height: 36
+        x: 76
+        y: 1
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b7a10f5a3be53f0800000000000000
-      internalID: -910092549403018386
+      spriteID: 22924b8216d992da0800000000000000
+      internalID: -5969066790482597598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_5
+      name: Big Heart Empty (18x14)_5
       rect:
         serializedVersion: 2
-        x: 809
-        y: 48
-        width: 33
-        height: 37
+        x: 93
+        y: 2
+        width: 16
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1a3d96eb13031300800000000000000
-      internalID: 221524225039350300
+      spriteID: c4099591066531690800000000000000
+      internalID: -7632661972720709556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_6
+      name: Big Heart Empty (18x14)_6
       rect:
         serializedVersion: 2
-        x: 930
-        y: 48
-        width: 90
-        height: 48
+        x: 112
+        y: 0
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7a5d344074e8e110800000000000000
-      internalID: 1290532464073988732
+      spriteID: 20c6467b8f310a3f0800000000000000
+      internalID: -891690767269729278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_7
+      name: Big Heart Empty (18x14)_7
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 48
-        width: 89
-        height: 48
+        x: 131
+        y: 0
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7337cef53e295240800000000000000
-      internalID: 4780903288873104255
+      spriteID: a08a5556a764c8950800000000000000
+      internalID: 6452609857615144970
       vertices: []
       indices: 
       edges: []
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack_0: -7008412969330441016
-      Attack_1: -7763475090823894447
-      Attack_2: 302641331129538988
-      Attack_3: -6329420634031446844
-      Attack_4: -910092549403018386
-      Attack_5: 221524225039350300
-      Attack_6: 1290532464073988732
-      Attack_7: 4780903288873104255
+      Big Heart Empty (18x14)_0: 8359515452663919735
+      Big Heart Empty (18x14)_1: 4436660828127510803
+      Big Heart Empty (18x14)_2: -7670799139532332002
+      Big Heart Empty (18x14)_3: -5921659163267886914
+      Big Heart Empty (18x14)_4: -5969066790482597598
+      Big Heart Empty (18x14)_5: -7632661972720709556
+      Big Heart Empty (18x14)_6: -891690767269729278
+      Big Heart Empty (18x14)_7: 6452609857615144970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

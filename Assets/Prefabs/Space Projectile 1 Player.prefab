@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8216296330225048015}
   - component: {fileID: -8955927727761143050}
   m_Layer: 9
-  m_Name: Projectile
+  m_Name: Space Projectile 1 Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7728412902767994620}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &2645257180484741839
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 1849096921
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2bc78bc8e5f5fcd41a02bdd1890b0821, type: 3}
+  m_Sprite: {fileID: -1244867649942888930, guid: c0573f6a40ebc08469025d73ff782c5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
