@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 9102212156750959611}
   - component: {fileID: 536108881489631009}
   - component: {fileID: 58934425368221350}
-  - component: {fileID: 3697135843964772897}
   - component: {fileID: 3655991136109946886}
-  m_Layer: 0
+  - component: {fileID: 5730563790700225432}
+  - component: {fileID: 6970044188877192656}
+  m_Layer: 6
   m_Name: Enemy Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +184,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7259752199006186600}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ff421bccc60c46ee8d8434cfa104732, type: 3}
   m_Name: 
@@ -215,7 +216,7 @@ MonoBehaviour:
   dropThings: 0
   healthBar: 0
   timeToDie: 0
-  deathCountsTowardGoal: 0
+  deathCountsTowardGoal: 1
   autosetLayerToEnemy: 1
 --- !u!114 &58934425368221350
 MonoBehaviour:
@@ -230,32 +231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackManager
   attacksEnabled: 1
---- !u!114 &3697135843964772897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7259752199006186600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eecf34eec5c2a14cbecd8953b2d8278, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShootForward
-  damage: 1
-  attackSpeed: 0.5
-  cooldown: 0.5
-  attackInput: 0
-  attackOffset: {fileID: 0}
-  myAnim: {fileID: 0}
-  projectile: {fileID: 7728412902767994620, guid: 0db777469c91a34428baf975c0a088a8, type: 3}
-  projectileSpeed: 5
-  liveTime: 10
-  infiniteAmmo: 1
-  destroyOtherProjectiles: 0
-  spreadshot: 0
-  numSpreadShots: 4
-  spreadWidth: 10
 --- !u!114 &3655991136109946886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,3 +246,45 @@ MonoBehaviour:
   damage: 1
   onlyDamagePlayer: 1
   disable: 0
+--- !u!114 &5730563790700225432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259752199006186600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef852f1ec6849e48ada5b3d677e68b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PointPatroller
+  patrolPath:
+  - {fileID: 0}
+  - {fileID: 0}
+  loop: 1
+--- !u!114 &6970044188877192656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259752199006186600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064483e9c95b841e19ccca9a9ea9521c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShootUp
+  damage: 1
+  attackSpeed: 1
+  cooldown: 0.5
+  attackInput: 323
+  attackOffset: {fileID: 0}
+  myAnim: {fileID: 0}
+  projectile: {fileID: 7728412902767994620, guid: 6e7f502dce471d54c9104891186a641c, type: 3}
+  projectileSpeed: 10
+  liveTime: 10
+  infiniteAmmo: 1
+  destroyOtherProjectiles: 0
+  spreadshot: 0
+  numSpreadShots: 4
+  spreadWidth: 10

@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c5d029b6d07c460cbc0fa12e2f12a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  essenseSound: {fileID: 8300000, guid: 27d049b90c9304ce9ad342c06e427d2d, type: 3}
+  essenseSound: {fileID: 8300000, guid: e84f83d681460da40a159deb72678087, type: 3}
   soundVolume: 0.2
   repeatInterval: 0
   randomizePitch: 0

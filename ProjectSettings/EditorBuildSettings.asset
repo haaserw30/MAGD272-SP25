@@ -6,16 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/2D Platformer Main Menu.unity
-    guid: 5a408546a859245418f8534960546b03
+    path: Assets/2DPlatformerMainMenu.unity
+    guid: f20e4e60d0e5bd84cb47820fc0da6e6d
   - enabled: 0
-    path: Assets/2D Platformer.unity
-    guid: 10525ffda0565874c8fb7b62b3fe2f9f
+    path: Assets/2DPlatformer.unity
+    guid: a8e2a6fb9c3f50b478da543e2e5f4352
+  - enabled: 0
+    path: Assets/2DPlatformerStage2.unity
+    guid: 9e11b7165b38d864f8f692f11acae506
   - enabled: 1
     path: Assets/Top Down Space Menu.unity
     guid: 587c4042e292a7640b7a1514953d7953
   - enabled: 1
     path: Assets/Top-Down Space.unity
     guid: 5196463bf27aada4db33d21ccfc8940e
+  - enabled: 1
+    path: Assets/Top-Down Space Scene 2.unity
+    guid: c3c8d46b73042054892018619a1faecc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
