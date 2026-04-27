@@ -14,14 +14,23 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/2DPlatformerStage2.unity
     guid: 9e11b7165b38d864f8f692f11acae506
-  - enabled: 1
+  - enabled: 0
     path: Assets/Top Down Space Menu.unity
     guid: 587c4042e292a7640b7a1514953d7953
-  - enabled: 1
+  - enabled: 0
     path: Assets/Top-Down Space.unity
     guid: 5196463bf27aada4db33d21ccfc8940e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Top-Down Space Scene 2.unity
     guid: c3c8d46b73042054892018619a1faecc
+  - enabled: 1
+    path: Assets/GunpowderGoblinTitle.unity
+    guid: 50a61218e51e3814fbb62d122f6ca6ee
+  - enabled: 1
+    path: Assets/GunpowderGoblinLevel1.unity
+    guid: 11f8b062446cf054ab10025df8b04f2b
+  - enabled: 1
+    path: Assets/GunpowderGoblinLevel2.unity
+    guid: acb8498b5973fb24eac41cfb17693099
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

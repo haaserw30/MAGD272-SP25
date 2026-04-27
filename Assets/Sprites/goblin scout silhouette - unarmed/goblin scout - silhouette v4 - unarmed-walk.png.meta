@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: f9fd3f0b03d74c54492e260f59f86e14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9142550768256672166
+    second: goblin scout - silhouette v4 - unarmed-walk_0
+  - first:
+      213: 4512785507871996575
+    second: goblin scout - silhouette v4 - unarmed-walk_1
+  - first:
+      213: 2761304674125711827
+    second: goblin scout - silhouette v4 - unarmed-walk_2
+  - first:
+      213: 2539717033661861899
+    second: goblin scout - silhouette v4 - unarmed-walk_3
+  - first:
+      213: -6986831589450605094
+    second: goblin scout - silhouette v4 - unarmed-walk_4
+  - first:
+      213: -2846840089817652794
+    second: goblin scout - silhouette v4 - unarmed-walk_5
+  - first:
+      213: 6300282990729547074
+    second: goblin scout - silhouette v4 - unarmed-walk_6
+  - first:
+      213: -7834339554693047945
+    second: goblin scout - silhouette v4 - unarmed-walk_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e161df3822f1180800000000000000
+      internalID: -9142550768256672166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 18
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9abd387282a0ae30800000000000000
+      internalID: 4512785507871996575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 18
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d983e998ff125620800000000000000
+      internalID: 2761304674125711827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 18
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009c65af23ee3320800000000000000
+      internalID: 2539717033661861899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 18
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add915defa9c90f90800000000000000
+      internalID: -6986831589450605094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 18
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1e312850efd78d0800000000000000
+      internalID: -2846840089817652794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 18
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dcedeeff91f6750800000000000000
+      internalID: 6300282990729547074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin scout - silhouette v4 - unarmed-walk_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 18
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7799ab0eea5d64390800000000000000
+      internalID: -7834339554693047945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goblin scout - silhouette v4 - unarmed-walk_0: -9142550768256672166
+      goblin scout - silhouette v4 - unarmed-walk_1: 4512785507871996575
+      goblin scout - silhouette v4 - unarmed-walk_2: 2761304674125711827
+      goblin scout - silhouette v4 - unarmed-walk_3: 2539717033661861899
+      goblin scout - silhouette v4 - unarmed-walk_4: -6986831589450605094
+      goblin scout - silhouette v4 - unarmed-walk_5: -2846840089817652794
+      goblin scout - silhouette v4 - unarmed-walk_6: 6300282990729547074
+      goblin scout - silhouette v4 - unarmed-walk_7: -7834339554693047945
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

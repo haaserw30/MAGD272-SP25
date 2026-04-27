@@ -18,7 +18,7 @@ TagManager:
   - Player
   - Ground
   - Projectile
-  - 
+  - Wall
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Middleground
     uniqueID: 2184734707
+    locked: 0
+  - name: Player
+    uniqueID: 3838681589
     locked: 0
   - name: Foreground
     uniqueID: 1849096921

@@ -14,6 +14,18 @@ public class PlatformerMovement : MonoBehaviour, IMove
     [field: SerializeField]
     public float speed { get; set; }= 10f;
     private float lastHorizontal;
+    [Header("Ground Detection Options")]
+    [Tooltip("Left point which we use to check below us for ground and to the side for a wall.")]
+    [SerializeField] Transform leftDetectorPoint;
+
+    [Tooltip("Right point which we use to check below us for ground and to the side for a wall.")]
+    [SerializeField] Transform rightDetectorPoint;
+
+    [SerializeField] float groundDetectionDistance = .5f;
+    [SerializeField] float wallDetectionDistance = .25f;
+
+    [Tooltip("I will try to run and jump on anything in these layers as if it was ground")]
+    [SerializeField] LayerMask whatIsGround;
 
     void Start(){
         attackScripts = GetComponents<IAttack<Health>>();
@@ -23,12 +35,16 @@ public class PlatformerMovement : MonoBehaviour, IMove
 
     public void Move(Vector2 direction)
     {
-        if (Mathf.Abs(direction.x) > .01f)
+        if (CheckGround())
         {
-            rb.linearVelocity = new Vector2(speed * direction.x, rb.linearVelocity.y);
-        }
-        else {
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            if (Mathf.Abs(direction.x) > .01f)
+            {
+                rb.linearVelocity = new Vector2(speed * direction.x, rb.linearVelocity.y);
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            }
         }
 
         UpdateAnimations(rb.linearVelocity.normalized.x, rb.linearVelocity.normalized.y); //jump animations set in jump script
@@ -53,6 +69,21 @@ public class PlatformerMovement : MonoBehaviour, IMove
             {
                 attack.SetDirection(new Vector2(lastHorizontal, vertical).normalized);
             }
+        }
+    }
+    public bool CheckGround()
+    {
+        RaycastHit2D hitLeft = Physics2D.Raycast(leftDetectorPoint.position, -leftDetectorPoint.up, groundDetectionDistance, whatIsGround);
+        RaycastHit2D hitRight = Physics2D.Raycast(rightDetectorPoint.position, -rightDetectorPoint.up, groundDetectionDistance, whatIsGround);
+
+        if (hitLeft.collider || hitRight.collider)
+        {
+            //Debug.Log(hitLeft.collider + " " + hitRight.collider);
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }

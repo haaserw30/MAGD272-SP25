@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IMove
 {
-    [field: SerializeField]
+    [SerializeField]
     public float speed { get; set; }
     void Move(Vector2 direction);
 
