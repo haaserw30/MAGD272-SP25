@@ -155,7 +155,7 @@ MonoBehaviour:
   sound: {fileID: 8300000, guid: f4656c1b5d7ea23429aeac0930228e9f, type: 3}
   volume: 1
   changeScene: 1
-  sceneChangeDelay: 1.3
+  sceneChangeDelay: 0.5
   sceneName: 2DPlatformerStage2
   enableAnObject: 0
   TargetObject: {fileID: 0}
