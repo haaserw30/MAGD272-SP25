@@ -125,9 +125,16 @@ public class Aim_and_Shoot : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((whatStopsMomentum.value & (1 << collision.gameObject.layer)) > 0)
+        // Stops player movement when contacting this layer
+        /*if ((whatStopsMomentum.value & (1 << collision.gameObject.layer)) > 0)
         {
             playerRB.velocity = Vector2.zero;
+        }*/
+
+        // Reset gun heat when landing, allowing player to shoot immediately when jumping
+        if ((whatIsGround.value & (1 << collision.gameObject.layer)) > 0)
+        {
+            gunHeat = 0;
         }
     }
     public bool CheckGround()
