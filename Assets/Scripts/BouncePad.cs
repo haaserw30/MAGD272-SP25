@@ -1,0 +1,15 @@
+using UnityEngine;
+
+public class BouncePad : MonoBehaviour
+{
+    [SerializeField] private float bounceForce = 15f;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+        }
+    }
+
+}

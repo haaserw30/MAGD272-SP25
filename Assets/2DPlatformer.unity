@@ -5324,6 +5324,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1223439720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &990478278 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6401793886406602634, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
+  m_PrefabInstance: {fileID: 4443503991623408949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1007474638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6011,6 +6016,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &1098699165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4469930481781942989, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
+  m_PrefabInstance: {fileID: 4443503991623408949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1106436873
 GameObject:
   m_ObjectHideFlags: 0
@@ -13050,6 +13060,18 @@ PrefabInstance:
     - target: {fileID: 4719824598737941114, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
       propertyPath: m_Name
       value: Player Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007671633588874293, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
+      propertyPath: leftDetectorPoint
+      value: 
+      objectReference: {fileID: 1098699165}
+    - target: {fileID: 5007671633588874293, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
+      propertyPath: rightDetectorPoint
+      value: 
+      objectReference: {fileID: 990478278}
+    - target: {fileID: 5007671633588874293, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 7225380693147997081, guid: 3b3f1bb6723355348b67547bb8fe94e0, type: 3}
       propertyPath: coinCount

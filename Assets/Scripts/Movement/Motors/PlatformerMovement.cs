@@ -35,6 +35,7 @@ public class PlatformerMovement : MonoBehaviour, IMove
 
     public void Move(Vector2 direction)
     {
+        //if (Mathf.Abs(direction.x) > .01d) ----- ORIGINAL CODE
         if (CheckGround())
         {
             if (Mathf.Abs(direction.x) > .01f)
